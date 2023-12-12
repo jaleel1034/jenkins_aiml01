@@ -10,14 +10,16 @@ pipeline{
               steps{
                 echo 'i am compiling the code'
                    }
-                              }
+                             }
            stage('instal'){
               steps{
                 echo 'i am installing the code'
                    }
-                              }
+                          }
            stage('deploy'){
               steps{
                 echo 'i am depolying the code'
                    }
-                              }
+                          }
+             }
+         }
